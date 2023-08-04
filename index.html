@@ -5,7 +5,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="hello.js"></script>
     <title>ASSDI-7</title>
 </head>
 
@@ -17,24 +16,28 @@
                     <a href="#"><img src="resources/header/logo.png" alt="" /></a>
                 </div>
                 <div class="menu">
-                    <a href="#">Home</a>
-                    <a href="#">Menu</a>
-                    <a href="#">Service</a>
-                    <a href="#">Shop</a>
+                    <ul>
+                        <li><a class="active" href="#">Home</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Shop</a></li>
+                    </ul>
                 </div>
                 <div class="search">
                     <div class="box">
-                        <img src="resources/header/icons.png" alt="" />
-                        <input type="text" placeholder="Search" />
-                        <div class="line"></div>
+                        <img class="search-inc" src="resources/header/icons.png" alt="" />
+                        <input class="input1" type="text" placeholder="Search" />
+                        <div class="line1"></div>
                         <img src="resources/header/icon.png" alt="" />
                     </div>
+                    <div class="no2"><p>2</p></div>
+
                 </div>
             </div>
 
             <div class="hero">
                 <div class="hero-content">
-                    <div class="half-width">
+                    <div class="header-content">
                         <div class="more-than-faster">
                             <p>More Thane Faster</p>
                             <img src="resources/header/imagea.png" alt="" />
@@ -50,25 +53,27 @@
                             </p>
                             <div class="btn">
                                 <button>Order Now</button>
-                                <img src="resources/header/button-play.png" alt="" />
-                                <p>Order Process</p>
+                                <div class="op">
+                                    <img src="resources/header/button-play.png" alt="" />
+                                    <p>Order Process</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="half-width">
+                    <div class="header-img">
                         <img src="resources/header/abstract.png" alt="">
                         <div class="hero-img">
                             <img src="resources/header/image(2).png" alt="">
                         </div>
                         <div class="card1">
-                            <img src="resources/header/fill1.png" alt="">
-                            <img src="resources/header/imageorng.png" alt="">
-                            <img src="resources/header/iconc.png" alt="">
+                            <img class="fill1" src="resources/header/fill1.png" alt="">
+                            <img class="orang" src="resources/header/imageorng.png" alt="">
+                            <img class="iconc" src="resources/header/iconc.png" alt="">
                             <div class="info">
                                 <p>Fresh Orange</p>
                                 <div class="line"></div>
                                 <div class="price">$44.60</div>
-                                <p>Free Shipping</p>
+                                <p class="fs">Free Shipping</p>
                             </div>
                         </div>
                         <div class="card2">
@@ -79,7 +84,6 @@
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     </section>
 </body>
