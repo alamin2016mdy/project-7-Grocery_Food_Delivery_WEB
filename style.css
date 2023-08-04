@@ -213,10 +213,16 @@ button {
     border-radius: 10px;
     color: white;
     font-size: 20px;
+}button:hover{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(248, 96, 97, 1);
+    color: rgba(248, 96, 97, 1);
+    padding: 24px 39px;
 }
 
 .btn {
     display: flex;
+    align-items: center;
 }
 
 .op {
@@ -228,7 +234,7 @@ button {
 .op p {
     font-size: 20px;
     color: black;
-}
+} 
 
 .header-img {
     position: relative;
