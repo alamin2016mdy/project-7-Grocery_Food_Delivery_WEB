@@ -218,9 +218,7 @@ button {
 
 button:hover {
     background-color: rgb(255, 255, 255);
-    border: 1px solid rgba(248, 96, 97, 1);
     color: rgba(248, 96, 97, 1);
-    padding: 24px 39px;
 }
 
 .btn {
@@ -383,7 +381,7 @@ button:hover {
     height: 310px;
     margin-top: 80px;
     border-radius: 12px;
-    background-image: url(resources/header/20230810_193221.png);
+
     flex-shrink: 0;
     z-index: 1;
 
@@ -427,4 +425,28 @@ button:hover {
     /* 178.571% */
     margin-top: 15px;
 
+}
+
+.features1 {
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    padding: 31px 136px 88px 136px;
+    align-items: center;
+}
+
+.img-card {
+    position: relative;
+}
+
+.card4{
+    position: absolute;
+    top: 270px;
+    left: 370px;
+    
+}
+
+.content{
+    margin-left: 281px;
+    align-items: center;
 }
